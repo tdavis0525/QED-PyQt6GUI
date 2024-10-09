@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qed-PyQT6GUI"
+version = "0.1.0"
+description = "experiment and configuration management"
+authors = ["Terrance A. Davise <tdavis0525@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"  # Use Python 3.11
+PyQt6 = "==6.7.1" # Specify the exact PyQt6 version
+numpy = "^1.24.3"
+pymongo = "^4.3.3"
+mayavi = "^4.8.2"
+Pillow = "^9.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.8"]
+build-backend = "poetry.core.masonry.api"
